@@ -1,0 +1,50 @@
+{
+    "header": {
+        "messageButton": "Meu Curriculo"
+    },
+
+    "banner": {
+        "messageText": "em formação",
+        "phrase": "Sejam bem vindos ao meu mundo!!",
+        "buttonTittle": "Fale comigo",
+        "portfolio": "Meu Portfólio"
+    },
+
+    "about": {
+        "title": "Sobre mim",
+        "subtitle" : "Olá, meu nome é Breno silva, atualmente cursando Bacharel em Ciências da Computação na UniFBV Wyden.",
+        "p": "Com um conhecimento intermediário em Javascript, sigo desenvolvendo pequenos projetos fronEnd com ReactJS e BackEnd com NodeJS afim de me tornar um desenvolvedor FullStack de qualidade. Atualmente meu foco está voltado para o TypeScript para garantir a qualidade dos meus códigos e reduzir erros comuns na trativa dos dados. Sou também um grande entusiasta da linguagem Python e estou sempre aberto a novos desafios.",
+        "moreButton": "Saiba mais",
+        "portfolio": "Meu Portfólio"
+    },
+    
+    "services": {
+        "title": "Principais tecnologias",
+        "subtitle": "Principais tecnologias que uso nos meus trabalhos.",
+        "reactText": "ReactJs é um framework JavaScript criado pelo Facebook (atual Meta) que é usado para criar interfaces de usuário (UI) em aplicativos web.",
+        "typeScriptText": "o Typescript é um superconjunto sintático estrito de JavaScript que adiciona tipagem estática à linguagem.",
+        "tailwindText": "Tailwind é um framework CSS que permite você criar layouts para suas aplicações web utilizando sua estrutura, fornecendo componentes para sua estilização",
+        "nodeText": "Node.js é um software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite a execução de códigos JavaScript fora de um navegador web"
+    },
+
+    "work": {
+        "title": "Meus ultimos",
+        "titlep2": "projetos",
+        "viewbutton": " Veja todos "
+    },
+
+    "contact": {
+        "title": "Entre em contato",
+        "subtitle": " Vamos trabalhar",
+        "subtitletwo": "juntos",
+        "inputName": "Seu nome",
+        "inputEmail": "Seu e-mail",
+        "inputMessage": "Sua mensagem",
+        "formButton": "Enviar mensagem",
+        "thanks": "Obrigado pela sua mensagem!",
+        "sending": "Enviando..."
+
+    }
+
+
+}

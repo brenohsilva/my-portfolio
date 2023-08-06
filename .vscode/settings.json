@@ -1,0 +1,5 @@
+{
+    "i18next.i18nPaths": "c:/Users/BRENO/Documents/Projetos/portfolio-starter/src/translations",
+    "css.customData": [".vscode/tailwind.json"],
+    "scss.lint.unknownAtRules": "ignore"
+}

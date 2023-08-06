@@ -1,0 +1,49 @@
+{
+    "header": {
+        "messageButton": "My Resume"       
+    },
+
+    "banner": {
+        "messageText": " in training",
+        "phrase": "Welcome to my world!!",
+        "buttonTittle": "Speak with me",
+        "portfolio": "My Portfolio"
+    },
+
+    "about": {
+        "title": "About me",
+        "subtitle" : "Hello, my name is Breno Silva, I'm going to Computer Science at UniFBV Wyden",
+        "p": "With intermediate knowledge in Javascript, I continue to develop small FrontEnd projects using ReactJS and BackEnd projects with NodeJS in order to become a high-quality FullStack developer. Currently, my focus is on TypeScript to ensure the quality of my code and reduce common errors in data handling. I am also a strong enthusiast of the Python language and always open to new challenges.",
+        "moreButton": "Learn more",
+        "portfolio": "My Portfolio"
+    },
+    
+    "services": {
+        "title": "Main Technologies",
+        "subtitle": "Main Technologies that i use in my projects",
+        "reactText": "ReactJS is a JavaScript framework created by Facebook (now Meta) that is used to build user interfaces (UI) in web applications.",
+        "typeScriptText": "TypeScript is a syntactic superset of JavaScript which adds static typing",
+        "tailwindText": "Tailwind CSS is a CSS framework that allows you to create layouts for your web applications using its utility-first structure, providing components for styling.",
+        "nodeText": "Node.js is an open-source, cross-platform software based on Google's V8 JavaScript engine, which allows the execution of JavaScript code outside of a web browser."
+    },
+
+    "work": {
+        "title": "My latest",
+        "titlep2": "projects",
+        "viewbutton": " See all projects "
+    },
+
+    "contact": {
+        "title": "Get in touch",
+        "subtitle": " Let's Work ",
+        "subtitletwo": "Together!",
+        "inputName": "Your name",
+        "inputEmail": "Your email",
+        "inputMessage": "Your message",
+        "formButton": "Send message",
+        "thanks": "Thanks for your message!",
+        "sending": "Sending..."
+    }
+
+
+}
