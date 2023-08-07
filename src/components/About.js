@@ -15,7 +15,7 @@ const About = () => {
       initial="hidden"
       whileInView={"show"}
       viewport={{once: false, amount: 0.3}}
-      className='flex-1 bg-about bg-contain bg-no-repeat h-[640px] mix-blend-lighten bg-top'>
+      className='flex-1 bg-about bg-contain bg-no-repeat lg:h-[640px] h-[500px] mix-blend-lighten bg-top'>
       </motion.div>
       <motion.div 
       variants={fadeIn('left', 0.3)}
@@ -23,9 +23,9 @@ const About = () => {
       whileInView={"show"}
       viewport={{once: false, amount: 0.3}}
       className='flex-1'>
-        <h2 className='h2'>{t("about.title")}</h2>
-        <h3 className='h3 mb-4' >{t("about.subtitle")}</h3>
-        <p className='mb-6'>{t("about.p")}</p>
+        <h2 className='h2 text-2xl lg:text-[32px]'>{t("about.title")}</h2>
+        <h3 className='h3 mb-4 text-xl leading-1 lg:text-[26px] leading-normal' >{t("about.subtitle")}</h3>
+        <p className='mb-6 text-justify'>{t("about.p")}</p>
         <div className='flex gap-x-8 items-center justify-center'>
           <a href='https://www.linkedin.com/in/brenohsilva/' target='_blank' rel="noopener noreferrer" className='btn btn-lg flex items-center'>{t("about.moreButton")}</a>
           <a href='#work' className='text-gradient btn-link' >{t("about.portfolio")}</a>

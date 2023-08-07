@@ -109,7 +109,7 @@ const Contact = () => {
 }
   
   return (
-    <section id='contact' className='py-16 lg:section'>
+    <section id='contact' className='py-16 section'>
       <div className='container mx-auto'>
         <div className='flex flex-col lg:flex-row'>
           <motion.div 

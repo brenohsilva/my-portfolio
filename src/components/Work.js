@@ -20,7 +20,7 @@ const Work = () => {
           whileInView={"show"}
           viewport={{once: false, amount: 0.3}}
           className='flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0'> 
-            <div className='mb-[180px]'>
+            <div className='lg:mb-[180px]'>
               <h2 className='h2 leading-tight'>{t("work.title")} <br/> {t("work.titlep2")}</h2>
               <a href='https://github.com/stars/brenohsilva/lists/my-portfolio' target='_blank' rel="noopener noreferrer" className='btn justify-center items-center px-5 h-11 w-fit text-base hidden cursor-pointer lg:flex' >{t("work.viewbutton")}</a>
             </div>
