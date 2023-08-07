@@ -113,10 +113,10 @@ const Contact = () => {
       <div className='container mx-auto'>
         <div className='flex flex-col lg:flex-row'>
           <motion.div 
-          variants={fadeIn('right', 0.3)}
+          variants={fadeIn('right', 0.2)}
           initial="hidden"
           whileInView={"show"}
-          viewport={{once: false, amount: 0.3}}
+          viewport={{once: false, amount: 0.2}}
           className='flex-1'>
             <div>
               <h4 className='text-xl uppercase font-medium mb-2 tracking-wide'>{t("contact.title")}</h4>
@@ -125,16 +125,16 @@ const Contact = () => {
           </motion.div>
           <motion.form
           onSubmit={sendEmail}
-          variants={fadeIn('left', 0.3)}
+          variants={fadeIn('left', 0.2)}
           initial="hidden"
           whileInView={"show"}
-          viewport={{once: false, amount: 0.3}}
+          viewport={{once: false, amount: 0.2}}
           className='flex-1 border rounded-2xl flex flex-col pb-24 p-6 '>
             <motion.div 
-              variants={fadeIn('left', 0.3)}
+              variants={fadeIn('left', 0.2)}
               initial="hidden"
               whileInView={"show"}
-              viewport={{once: false, amount: 0.3}}
+              viewport={{once: false, amount: 0.2}}
               className={`justify-center items-center mx-auto my-6 ${hiddendiv ? 'flex' : 'hidden'}`}>
               <h1 className='text-[50px] leading-none text-center'>{t("contact.thanks")}</h1>
             </motion.div>

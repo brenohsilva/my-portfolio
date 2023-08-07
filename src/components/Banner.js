@@ -34,7 +34,7 @@ const Banner = () => {
             className={`mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1] ${i18n.language === 'en' ? 'visible' : 'hidden'}`}>
               <span className=''>FullStack </span>
               <TypeAnimation sequence={['Developer', 2000, 'in training', 2000,]}
-              speed={30} wrapper='span' repeat={Infinity}/>
+              speed={60} wrapper='span' repeat={Infinity}/>
             </motion.div>
 
             <motion.div 

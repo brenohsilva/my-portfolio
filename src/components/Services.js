@@ -43,7 +43,7 @@ const Services = () => {
       <div className='container mx-auto'>
         <div className='flex flex-col lg:flex-row'>
           < motion.div 
-          variants={fadeIn('right', 0.4)}
+          variants={fadeIn('right', 0.2)}
           initial="hidden"
           whileInView={"show"}
           viewport={{once: false, amount: 0.3}}
@@ -52,7 +52,7 @@ const Services = () => {
             <h4 className='h3 max-w-[325px] mb-16'>{t("services.subtitle")}</h4>
           </motion.div>
           <motion.div 
-          variants={fadeIn('left', 0.5)}
+          variants={fadeIn('left', 0.3)}
           initial="hidden"
           whileInView={"show"}
           viewport={{once: false, amount: 0.3}}
